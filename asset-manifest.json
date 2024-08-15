@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/travel-app-frontend/static/css/main.44e79fc7.css",
+    "main.js": "/travel-app-frontend/static/js/main.eda34f56.js",
+    "static/js/453.e81ca8ec.chunk.js": "/travel-app-frontend/static/js/453.e81ca8ec.chunk.js",
+    "static/media/uk.jpg": "/travel-app-frontend/static/media/uk.8f85f0e635225bddf2c0.jpg",
+    "static/media/kashmir3.jpg": "/travel-app-frontend/static/media/kashmir3.515891af95d8a37e9e7c.jpg",
+    "static/media/kashmir.avif": "/travel-app-frontend/static/media/kashmir.65caa3192f2e51b9421a.avif",
+    "static/media/uk3.avif": "/travel-app-frontend/static/media/uk3.207eb515ea99f4120e72.avif",
+    "static/media/kashmir1.avif": "/travel-app-frontend/static/media/kashmir1.62cf29d50b6ba8052511.avif",
+    "static/media/uk2.jpg": "/travel-app-frontend/static/media/uk2.17af8718488e807a3749.jpg",
+    "static/media/himachal1.jpg": "/travel-app-frontend/static/media/himachal1.bb4ef80c82c9c8038aa1.jpg",
+    "static/media/himachal2.jpg": "/travel-app-frontend/static/media/himachal2.7b0ca36d1b7644d34f41.jpg",
+    "static/media/uk1.jpg": "/travel-app-frontend/static/media/uk1.bf2678d858dc2424733f.jpg",
+    "static/media/himachal.jpg": "/travel-app-frontend/static/media/himachal.ed98e9484179b06ff4f4.jpg",
+    "static/media/himachal3.jpg": "/travel-app-frontend/static/media/himachal3.7de80920d3ae9ef34340.jpg",
+    "index.html": "/travel-app-frontend/index.html",
+    "main.44e79fc7.css.map": "/travel-app-frontend/static/css/main.44e79fc7.css.map",
+    "main.eda34f56.js.map": "/travel-app-frontend/static/js/main.eda34f56.js.map",
+    "453.e81ca8ec.chunk.js.map": "/travel-app-frontend/static/js/453.e81ca8ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44e79fc7.css",
+    "static/js/main.eda34f56.js"
+  ]
+}
