@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { TripProvider } from './context/TripContext';
+import TripList from './components/TripList';
+import TripDetails from './components/TripDetails';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <TripProvider>
+        <div className='App'>
+          <Routes>
+            <Route path='/' element={<TripList />} />
+            <Route path='/trip/:id' element={<TripDetails />} />
+          </Routes>
+        </div>
+      </TripProvider>
+    </Router>
   );
-}
+};
 
 export default App;

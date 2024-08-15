@@ -1,0 +1,52 @@
+/* TripDetails.css */
+.trip-details {
+  background-color: #fff; /* White background for the details section */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+  background-color: #0033cc; /* Blue background for the button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: #002a80; /* Darker blue on hover */
+}
+
+.trip-details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 20px 0;
+}
+
+.trip-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.trip-images img {
+  width: 150px; /* Set a consistent width for images */
+  height: 100px; /* Set a consistent height for images */
+  object-fit: cover; /* Ensure images cover the area without distortion */
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  color: #0033cc; /* Blue color for headers */
+}
+
+p {
+  color: #333; /* Dark grey color for text */
+}
